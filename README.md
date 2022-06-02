@@ -10,11 +10,7 @@ equation is that one can perfectly hedge the option by
 buying and selling the underlying asses and the "bank account 
 asset" (cash) in just the right way to eliminate risk.
 
-\begin{equation}
-    \frac{\partial V}{\partial t}
-    + \frac{1}{2}S^2\sigma^2\frac{\partial^2 V}{\partial S^2}
-    + (r - D)S\frac{\partial V}{\partial S} - r V = 0
-\end{equation}
+$$\begin{equation}\frac{\partial V}{\partial t}+ \frac{1}{2}S^2\sigma^2\frac{\partial^2 V}{\partial S^2}+ (r - D)S\frac{\partial V}{\partial S} - r V = 0 \end{equation}$$
 
 Here $V(S, T)$ is the value of the options, $S$ is the price of the 
 underlying asset, $\sigma$ is the volatility of the underlying asset,
@@ -23,9 +19,7 @@ $r$ is the "risk-free" interest rate, and $D$ is the yield
 
 The volatility $\sigma$ stems from an underlying assumption that 
 the stock moves like a geometric Brownian motion,
-\begin{equation}
-    \frac{dS}{S} = \mu dt + \sigma dW.
-\end{equation}
+$$\begin{equation}\frac{dS}{S} = \mu dt + \sigma dW. \end{equation}$$
 
 Explicit solutions for the Black-Scholes equation,
 called The Black-Scholes formulae, are known only for 
