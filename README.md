@@ -7,7 +7,7 @@ This project uses Crank-Nicolson Method for  pricing American options. To avoid 
 The Black-Scholes equation is a partial differential equation, which 
 describes the price of an option over time. The key insight behind the 
 equation is that one can perfectly hedge the option by 
-buying and selling the underlying asses and the "bank account 
+buying and selling the underlying asset and the "bank account 
 asset" (cash) in just the right way to eliminate risk.
 
 $$\begin{equation}\frac{\partial V}{\partial t}+ \frac{1}{2}S^2\sigma^2\frac{\partial^2 V}{\partial S^2}+ (r - D)S\frac{\partial V}{\partial S} - r V = 0 \end{equation}$$
@@ -24,7 +24,7 @@ $$\begin{equation}\frac{dS}{S} = \mu dt + \sigma dW. \end{equation}$$
 Explicit solutions for the Black-Scholes equation,
 called The Black-Scholes formulae, are known only for 
 European call and put options. For other derivatives, such 
-a formula doest not have to exist. However, a numerical solution is 
+a formula does not have to exist. However, a numerical solution is 
 always possible. (Source: http://compphysics.github.io/ComputationalPhysics/doc/Projects/2020/Project5/BlackScholes/pdf/BlackScholes.tex)
 
 
